@@ -1,7 +1,37 @@
 *{
     margin:0px;
     padding:0px;
+    color:white;
+    list-style: none;
 }
 nav{
-    width
+    display:flex;
+    justify-content:space-around;
+    padding-left:80px;
+    padding-right:80px;
+    
+}
+.menu{
+    display:flex;
+    width:100%;
+    justify-content:space-around;
+    
+}
+nav ul li{
+    font-weight:800;
+}
+
+
+body{
+    background-image: url("./images/846466_1348.jpg");
+    padding-top:50px;
+}
+.moving-cursor{
+    border:1.5px solid white;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    position:absolute;
+
+
 }
