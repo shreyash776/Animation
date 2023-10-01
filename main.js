@@ -7,3 +7,8 @@
 
   }
 
+   let nav_items = document.querySelector(".nav-item");
+   nav_items.addEventListener('mouseover',()=>{
+    pointer.classList.remove("moving-cursor");
+    pointer.classList.add("cursor-grow");
+   })
