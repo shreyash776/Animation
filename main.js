@@ -69,3 +69,12 @@ nav_items.forEach((element) => {
      hill4.style.left= -scroll +"px";
      hill1.style.top= -scroll + "px";};
   });
+  
+
+  let content=document.querySelector(".content");
+  content.addEventListener("mouseover",()=>{
+    pointer.classList.add("pointer3");
+  })
+  content.addEventListener('mouseleave',()=>{
+    pointer.classList.remove("pointer3");
+  })
