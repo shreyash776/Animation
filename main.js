@@ -31,9 +31,11 @@ nav_items.forEach((element) => {
   setTimeout(type_effect,100);
  }
  else{
-  text.innerHTML=``;
+  setTimeout(() => {
+    text.innerHTML=``;
   char_index=0;
   type_effect();
+  },1000);
  }
  }
    
