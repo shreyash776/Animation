@@ -58,19 +58,12 @@ nav ul li{
     align-items: center;
 }
 .parallix{
-    height:800px;
+    height:100vh;
     display:flex;
     justify-content: center;
     align-items: center;
     position:relative;
-    /* background-image: url("./images/hill1.png"),
-     url("./images/hill2.png"),
-     url("./images/hill3.png"),
-     url("./images/hill4.png"),
-     url("./images/hill5.png"),
-     url("./images/plant.png"),
-     url("./images/leaf.png"),
-     url("./images/tree.png"); */
+   overflow-y: hidden;
     
 }
 .parallix img{
