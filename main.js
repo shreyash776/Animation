@@ -49,11 +49,23 @@ nav_items.forEach((element) => {
    parallix.addEventListener('mouseleave',()=>
    pointer.classList.remove("pointer2"));
    
-
-   let leaf =document.querySelector(".leaf");
-   let heading=document.querySelector("#head");
+   let heading=document.querySelector("#head")
+   let leaf =document.querySelector("#leaf");
+   let hill1 =document.querySelector("#hill1");
+   let hill2 =document.querySelector("#hill2");
+   let hill3=document.querySelector("#hill3");
+   let hill4 =document.querySelector("#hill4");
+   let hill5 =document.querySelector("#hill5");
+   let plant=document.querySelector("#plant");
+   let tree =document.querySelector("#tree");
+   
   window.addEventListener('scroll',()=>{
     let scroll=window.scrollY;
+    console.log(scroll);
+    if(scroll+"px" > 60px){
    heading.style.marginTop = scroll*2.5 +"px" ;
-   leaf.style.top=scroll* -1.5 +"px";
+    leaf.style.top= -scroll + "px";
+    hill5.style.left= scroll+ "px";
+     hill4.style.left= -scroll +"px";
+     hill1.style.top= -scroll* + "px";}
   });
