@@ -71,14 +71,14 @@ nav ul li{
     top:0;
     left:0;
     width:100% ;
-    /* pointer-events: none;*/
+    
 } 
- /* .parallix h1{
+ .parallix h1{
     color:white;
     z-index: 1;
     font-family: cursive;
     font-size: 50px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 
  }
  .pointer2{
