@@ -64,6 +64,7 @@ nav ul li{
     align-items: center;
     position:relative;
    overflow-y: hidden;
+   overflow-x: hidden;
     
 }
 .parallix img{
@@ -74,11 +75,12 @@ nav ul li{
     
 } 
  .parallix h1{
-    color:white;
+    color:#003329;
     z-index: 1;
     font-family: cursive;
     font-size: 50px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    
 
  }
  .pointer2{

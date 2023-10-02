@@ -48,5 +48,12 @@ nav_items.forEach((element) => {
 
    parallix.addEventListener('mouseleave',()=>
    pointer.classList.remove("pointer2"));
- 
-  
+   
+
+   let leaf =document.querySelector(".leaf");
+   let heading=document.querySelector("#head");
+  window.addEventListener('scroll',()=>{
+    let scroll=window.scrollY;
+   heading.style.marginTop = scroll*2.5 +"px" ;
+   leaf.style.top=scroll* -1.5 +"px";
+  });
