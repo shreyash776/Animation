@@ -16,11 +16,8 @@ nav_items.forEach((element) => {
   });
 });
  
-let text = document.querySelector(".text");
- const display()=>{
-   setTimeout(() => {
-    text.textContent=`software incubator`
-    
-   },1000);
- }
- display();
+ let text= document.querySelector(".text");
+ let text_to_display=document.querySelector("WELCOME TO SOFTWARE INCUBATOR");
+ let char_index=0;
+  
+ 
