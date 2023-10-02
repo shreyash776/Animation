@@ -16,8 +16,24 @@ nav_items.forEach((element) => {
   });
 });
  
+
+  
  let text= document.querySelector(".text");
- let text_to_display=document.querySelector("WELCOME TO SOFTWARE INCUBATOR");
+ let text_to_display="WELCOME TO SOFTWARE INCUBATOR";
  let char_index=0;
   
- 
+ const type_effect=()=>{
+
+ if(char_index<text_to_display.length){
+  text.innerHTML+= text_to_display.charAt(char_index);
+  char_index++ ;
+  setTimeout(type_effect,200);
+ }
+ else{
+  text.innerHTML=``;
+  
+ }
+ }
+
+ type_effect();
+
