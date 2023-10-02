@@ -62,10 +62,10 @@ nav_items.forEach((element) => {
   window.addEventListener('scroll',()=>{
     let scroll=window.scrollY;
     console.log(scroll);
-    if(scroll+"px" > 60px){
+    if(scroll>50){
    heading.style.marginTop = scroll*2.5 +"px" ;
     leaf.style.top= -scroll + "px";
     hill5.style.left= scroll+ "px";
      hill4.style.left= -scroll +"px";
-     hill1.style.top= -scroll* + "px";}
+     hill1.style.top= -scroll + "px";};
   });
