@@ -15,3 +15,6 @@ nav_items.forEach((element) => {
     pointer.classList.remove("cursor-grow");
   });
 });
+ 
+let text= document.querySelector(".text");
+ 
