@@ -71,8 +71,8 @@ nav ul li{
     top:0;
     left:0;
     width:100% ;
-    /* pointer-events: none;;
-} */
-.parallix h1{
-
-}
+    /* pointer-events: none;*/
+} 
+ .parallix h1{
+    color:#333;
+ }

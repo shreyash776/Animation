@@ -38,3 +38,13 @@ nav_items.forEach((element) => {
  }
    
  type_effect();
+
+
+
+ let parallix= document.querySelector(".parallix");
+  parallix.addEventListener('mouseover',()=>{
+    pointer.add("pointer2");
+  });
+
+ 
+  
