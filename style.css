@@ -4,6 +4,12 @@
     color:white;
     list-style: none;
     cursor:none;
+    overflow-x: hidden;
+
+}
+.first-container{
+    background-image: url("./images/846466_1348.jpg");
+    padding-top:50px;
 }
 nav{
     display:flex;
@@ -23,10 +29,7 @@ nav ul li{
 }
 
 
-body{
-    background-image: url("./images/846466_1348.jpg");
-    padding-top:50px;
-}
+
 .moving-cursor{
     border:2px solid white;
     width:40px;
@@ -54,4 +57,29 @@ body{
     justify-content:center;
     align-items: center;
 }
-.text
+.parallix{
+    height:800px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    /* background-image: url("./images/hill1.png"),
+     url("./images/hill2.png"),
+     url("./images/hill3.png"),
+     url("./images/hill4.png"),
+     url("./images/hill5.png"),
+     url("./images/plant.png"),
+     url("./images/leaf.png"),
+     url("./images/tree.png"); */
+    
+}
+.parallix img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100% ;
+    /* pointer-events: none;;
+} */
+.parallix h1{
+
+}
