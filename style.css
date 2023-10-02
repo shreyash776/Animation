@@ -113,4 +113,16 @@ nav ul li{
  .content p{
     padding-top:60px;
  } 
- 
+ .pointer3{
+    border:none;
+    background-color: black;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    position:absolute;
+    pointer-events: none;
+    transition:width 0.1s ease;
+    transform:translate(-50%,-50%);
+    z-index: 1;
+    
+ }
