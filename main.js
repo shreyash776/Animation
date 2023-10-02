@@ -43,8 +43,10 @@ nav_items.forEach((element) => {
 
  let parallix= document.querySelector(".parallix");
   parallix.addEventListener('mouseover',()=>{
-    pointer.add("pointer2");
+    pointer.classList.add("pointer2");
   });
 
+   parallix.addEventListener('mouseleave',()=>
+   pointer.classList.remove("pointer2"));
  
   
