@@ -3,6 +3,7 @@
     padding:0px;
     color:white;
     list-style: none;
+    cursor:none;
 }
 nav{
     display:flex;
@@ -32,6 +33,16 @@ body{
     height:40px;
     border-radius:50%;
     position:absolute;
+    pointer-events: none;
+    transition:all 0.1s easein;
+    
 
 
+}
+.cursor-grow{
+    border:2.5px solid white;
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    position:absolute;
 }

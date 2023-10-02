@@ -7,8 +7,18 @@
 
   }
 
-   let nav_items = document.querySelector(".nav-item");
-   nav_items.addEventListener('mouseover',()=>{
-    pointer.classList.remove("moving-cursor");
-    pointer.classList.add("cursor-grow");
-   })
+   let nav_items = document.querySelectorAll(".nav-item");
+  nav_items.forEach((element)=>{
+    element.addEventListener('mouseover',function(){
+        
+        // pointer.classList.remove("moving-cursor");
+        pointer.classList.add("cursor-grow");
+        
+       });
+      element.addEventListener('mouseleave',()=>{
+        element.classList.remove("cursor-grow");
+        element.classList.add("moving-cursor");
+      });
+  }
+
+    );
