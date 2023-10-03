@@ -129,3 +129,13 @@ nav ul li{
     z-index: 1;
     
  }
+ .left,.right{
+    background-color: #003329;
+
+ }
+ .drag-drop{
+    display:flex;
+    width:100vw;
+    height:700px;
+    
+ }
