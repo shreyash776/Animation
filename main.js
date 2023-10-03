@@ -65,7 +65,7 @@ nav_items.forEach((element) => {
     let scroll=window.scrollY;
     console.log(scroll);
     if(scroll>50){
-   heading.style.marginTop = scroll*2.5 +"px" ;
+   heading.style.top = scroll +"px" ;
     leaf.style.top= -scroll + "px";
     hill5.style.left= scroll+ "px";
      hill4.style.left= -scroll +"px";
